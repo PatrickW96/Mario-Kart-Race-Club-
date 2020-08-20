@@ -1,0 +1,118 @@
+header {
+    padding: 30px;
+    background-color: #04235e;
+    color: white;
+    font-size: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 1000px;
+    z-index: 1;
+}
+
+#small {
+    font-size: 58px;
+}
+
+body {
+    background-color: #2a689c;
+}
+
+header>a {
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    background-color: white;
+    color: #04235e;
+    padding: 15px;
+    border-radius: 58px;
+}
+
+#circle {
+    border-radius: 58px;
+    border: 4px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#first-image {
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: #2a689c;
+    color: #323f4a;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#char {
+    padding: 40px;
+    text-align: center;
+    width: 45%;
+    font-size: 2em;
+}
+
+#map {
+    padding: 40px;
+    text-align: center;
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2em;
+}
+
+.main {
+    background-color: aliceblue;
+}
+
+.lorem {
+    padding: 30px;
+    line-height: 220%;
+    font-size: 24px;
+    position: relative;
+}
+
+p {
+    margin: 20px 15%;
+}
+
+
+#div {
+    /*background-color: black;*/ 
+    padding: 15px;
+    height: 200px;
+    position: relative;
+}
+
+ #animate-img {
+    position: absolute;
+    right: 0px;
+    width: 27%;
+    height: 100%; 
+    animation-name: mario;
+    animation-duration: 5s;
+
+}  
+
+@keyframes mario {
+    0% {
+        right: 0px;
+}
+
+    50% {
+        right: 85%;
+    } 
+
+    100% {
+        left: 0px;
+    }
