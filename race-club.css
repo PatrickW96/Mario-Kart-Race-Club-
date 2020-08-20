@@ -158,6 +158,7 @@ p {
     height: 100%; 
     animation-name: mario;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
 
 }  
 
