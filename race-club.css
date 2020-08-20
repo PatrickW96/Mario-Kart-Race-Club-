@@ -1,4 +1,9 @@
 header {
+
+    /* Made header a fixed banner like box. It is glued to the top of the browser with position: fixed; propert: value. 
+    Got the idea from CSS video link included... https://www.youtube.com/watch?v=XQaHAAXIVg8&amp;t=81s... check it out to 
+    get an idea how to do step by step. */
+
     padding: 30px;
     background-color: #04235e;
     color: white;
@@ -7,7 +12,6 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    margin-bottom: 1000px;
     z-index: 1;
 }
 
@@ -16,7 +20,7 @@ header {
 }
 
 body {
-    background-color: #2a689c;
+    background-color: aliceblue;
 }
 
 header>a {
@@ -42,9 +46,21 @@ header>a {
     margin: 0;
 }
 
+#banner-text {
+
+    /* Made some fun "Issa me.. Mario! text for personality. Plan to add font-styles if not tonight tomorrow */
+
+    font-size: 68px;
+    width: 85%;
+    color: #a62117;
+}
+
 nav {
-    background-color: #2a689c;
-    color: #323f4a;
+
+    /* Had to add position: relative; to this element so I could move the #map link box to the right with position: absolute; 
+    property: value. */
+
+    background-color: rgba(54, 140, 207, .4);
     width: 100%;
     position: relative;
     margin: 0;
@@ -52,6 +68,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: white;
 }
 
 #char {
@@ -62,6 +79,10 @@ nav a {
 }
 
 #map {
+
+    /* Added position: absolute; to move the "CHOOSE YOUR MAP" nav link to right side of the "CHOOSE YOUR CHARACTER" link so they
+    can be on the same line. */
+
     padding: 40px;
     text-align: center;
     width: 45%;
@@ -88,14 +109,21 @@ p {
 
 
 #div {
-    /*background-color: black;*/ 
+    margin-top: 160px;
     padding: 15px;
     height: 200px;
     position: relative;
+    top: 0px;
 }
 
  #animate-img {
+
+    /* Playing around with the animation properties CSS has to offer by making Mario race across the screen. This is usued in 
+    sync with @keyframes. All CSS. I plan on adding JavaScript to make the webpage more dynamic and responsive based on 
+    userinterface. Coming soon... */
+
     position: absolute;
+    top: 0px;
     right: 0px;
     width: 27%;
     height: 100%; 
@@ -115,4 +143,39 @@ p {
 
     100% {
         left: 0px;
-    }
+    } 
+}
+
+#start {
+
+    /* Gave both images an id to make controling blocks easier. Then gave the elements dimensions  */
+
+    width: 25%;
+    height: 15%;
+    margin: 1%;
+    padding: 10px;
+    position: relative;
+    right: -325px;
+}
+
+#drift {
+    width: 25%;
+    margin: 1%;
+    padding: 10px;
+    position: relative;
+    right: -240px;
+    top: 0px;
+    background-color: brown;
+}
+
+.pictures {
+
+    /* Using this class to figure out how to give the left picture more height. */
+    
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+
+/* ADD FINISH.JPG TO BOTTOM OF PAGE AFTER FOOTER. MAKE IT SO HEADER COMES ALL THE WAY DOWN TO FOOTER... LIKE A MOUTH CLOSING */
