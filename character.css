@@ -39,7 +39,37 @@ header a {
   border-radius: 58px;
 }
 
-img {
-  width: 50%;
-  margin: 13% 20%;
+.sticky{
+  padding: 0 2%;
+}
+
+#mario-car {
+  width: 16.8%;
+  height: 15%;
+  margin-top: 149px;
+}
+
+#luigi-car {
+  width: 15%;
+  height: 15%;
+}
+
+#peach-car {
+  width: 11.2%;
+  height: 18%;
+}
+
+#yoshi-car {
+  width: 20%;
+  height: 10%;
+}
+
+#boo-car {
+  width: 11.2%;
+  height: 15%;
+}
+
+#bowser-car {
+  width: 19.9%;
+  height: 15%;
 }
