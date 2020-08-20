@@ -71,7 +71,7 @@ header>a {
     /* Made some fun "Issa me.. Mario! text for personality. Plan to add font-styles if not tonight tomorrow */
 
     font-size: 68px;
-    width: 40%;
+    width: 42%;
     color: #a62117;
     white-space: nowrap;
     font-family: MarioKart;
@@ -222,6 +222,7 @@ footer {
     padding: 40px;
     font-size: 50px;
     height: 50vw;
+    margin-bottom: 5px;
 }
 
 #club a {
