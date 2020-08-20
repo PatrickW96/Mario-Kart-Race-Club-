@@ -7,16 +7,32 @@ header {
     padding: 30px;
     background-color: #04235e;
     color: white;
-    font-size: 72px;
+    font-size: 60px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
+    font-family: MarioKart;
+}
+
+@font-face {
+
+    /* Downloaded some fonts from Google to add flavor to the page. Did not add back up fonts yet. */
+
+    font-family: SuperMario;
+    src: url(supermario256.woff),
+    url(SuperMario256.tff);
+}
+
+@font-face {
+    font-family: MarioKart;
+    src: url(Mario-Kart-DS.ttf),
+    url(mario-kart-ds.woff)
 }
 
 #small {
-    font-size: 58px;
+    font-size: 45px;
 }
 
 body {
@@ -24,7 +40,11 @@ body {
 }
 
 header>a {
-    font-size: 24px;
+
+    /* Put the "join the club" link/button on top right corner of header. Used border-radius to mimic the 
+    niintento logo around link/button. */
+
+    font-size: 20px;
     display: inline-block;
     position: absolute;
     right: 100px;
@@ -51,8 +71,13 @@ header>a {
     /* Made some fun "Issa me.. Mario! text for personality. Plan to add font-styles if not tonight tomorrow */
 
     font-size: 68px;
-    width: 85%;
+    width: 40%;
     color: #a62117;
+    white-space: nowrap;
+    font-family: MarioKart;
+    position: relative;
+    right: 10%;
+    text-decoration: underline;
 }
 
 nav {
@@ -69,6 +94,7 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
+    font-family: MarioKart;
 }
 
 #char {
@@ -76,6 +102,7 @@ nav a {
     text-align: center;
     width: 45%;
     font-size: 2em;
+    border: 2px solid #04235e;
 }
 
 #map {
@@ -90,6 +117,7 @@ nav a {
     right: 0;
     top: 0;
     font-size: 2em;
+    border: 2px solid #04235e;
 }
 
 .main {
@@ -105,6 +133,7 @@ nav a {
 
 p {
     margin: 20px 15%;
+    text-align: center;
 }
 
 
@@ -150,32 +179,70 @@ p {
 
     /* Gave both images an id to make controling blocks easier. Then gave the elements dimensions  */
 
-    width: 25%;
-    height: 15%;
-    margin: 1%;
-    padding: 10px;
+    width: 35%;
+    height: 25%;
+    margin: 1% auto; 
     position: relative;
-    right: -325px;
+    right: -10%;
+
 }
 
 #drift {
-    width: 25%;
+    width: 45%;
     margin: 1%;
     padding: 10px;
     position: relative;
-    right: -240px;
-    top: 0px;
-    background-color: brown;
+    right: -6%;
+   
+
+
 }
 
 .pictures {
 
     /* Using this class to figure out how to give the left picture more height. */
     
-    width: 100%;
-    height: 100%;
-    background-color: blueviolet;
+    margin: 10px 18%;
 }
 
+#finish {
+    height: 50vw;
+    width: 100%;
+    
+}
 
+footer {
+
+    /* Thought adding the a longated footer that was the same color as the header with a "join the club" link
+    in the mix was a nice way to finish the main page off. */
+
+    background-color: #04235e;
+    color: aliceblue;
+    padding: 40px;
+    font-size: 50px;
+    height: 50vw;
+}
+
+#club a {
+    color: #04235e;
+}
+
+#club {
+
+    /* The code used to center the link in the footer. */
+
+    border-radius: 58px;
+    border: 4px solid white;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right: -18%;
+    background-color: white;
+    padding: 15px;
+    font-family: MarioKart;
+}
+
+#smaller-txt {
+    font-size: 20px;
+}
 /* ADD FINISH.JPG TO BOTTOM OF PAGE AFTER FOOTER. MAKE IT SO HEADER COMES ALL THE WAY DOWN TO FOOTER... LIKE A MOUTH CLOSING */
