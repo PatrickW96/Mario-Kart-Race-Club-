@@ -7,18 +7,18 @@ header {
     padding: 30px;
     background-color: #04235e;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-    font-family: MarioKart;
+    font-family: "Press Start 2p";
 }
 
-@font-face {
+/* @font-face {
 
-    /* Downloaded some fonts from Google to add flavor to the page. Did not add back up fonts yet. */
+    Downloaded some fonts from Google to add flavor to the page. Did not add back up fonts yet. 
 
     font-family: SuperMario;
     src: url(supermario256.woff),
@@ -30,9 +30,10 @@ header {
     src: url(Mario-Kart-DS.ttf),
     url(mario-kart-ds.woff)
 }
-
+ */
 #small {
-    font-size: 45px;
+    font-size: 25px;
+    font-family: "Press Start 2p";
 }
 
 body {
@@ -44,7 +45,7 @@ header>a {
     /* Put the "join the club" link/button on top right corner of header. Used border-radius to mimic the
     niintento logo around link/button. */
 
-    font-size: 20px;
+    font-size: 14px;
     display: inline-block;
     position: absolute;
     right: 100px;
@@ -52,6 +53,10 @@ header>a {
     color: #04235e;
     padding: 15px;
     border-radius: 58px;
+}
+
+nav a:hover {
+    color: #07eaf2;
 }
 
 #circle {
@@ -70,11 +75,11 @@ header>a {
 
     /* Made some fun "Issa me.. Mario! text for personality. Plan to add font-styles if not tonight tomorrow */
 
-    font-size: 68px;
+    font-size: 38px;
     width: 42%;
     color: #a62117;
     white-space: nowrap;
-    font-family: MarioKart;
+    font-family: "Press Start 2P";
     position: relative;
     right: 10%;
     text-decoration: underline;
@@ -94,14 +99,14 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    font-family: MarioKart;
+    font-family: "Press Start 2P";
 }
 
 #char {
     padding: 40px;
     text-align: center;
     width: 45%;
-    font-size: 2em;
+    font-size: 1.2em;
     border: 2px solid #04235e;
 }
 
@@ -116,7 +121,7 @@ nav a {
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 2em;
+    font-size: 1.2em;
     border: 2px solid #04235e;
 }
 
@@ -219,8 +224,8 @@ footer {
 
     background-color: #04235e;
     color: aliceblue;
-    padding: 40px;
-    font-size: 50px;
+    padding: 60px;
+    font-size: 2.5em;
     height: 50vw;
     margin-bottom: 5px;
 }
@@ -238,10 +243,10 @@ footer {
     display: inline-block;
     text-align: center;
     position: relative;
-    right: -18%;
+    right: -12%;
     background-color: white;
     padding: 15px;
-    font-family: MarioKart;
+    font-family: "Press Start 2P";
 }
 
 #smaller-txt {
