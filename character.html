@@ -6,52 +6,118 @@
         <title>Choose Your Charater</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="character.css">
         <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Press+Start+2P&display=swap" rel="stylesheet">
       </head>
 
       <body>
           <header>
-            <h1 id="circle2">MarioKart</h1><span id= "small2">  Race Club!</span>
-            <a href="#">Join the Club!</a>
+            <h1 id="circle2"><a href="race-club.html">MarioKart</a></h1><span id= "small">  Race Club!</span>
+            <a href="#">Join the Club! </a>
           </header>
+          <nav>
 
-          <nav></nav>
+            <ul id="nav" class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Mario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Luigi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Peach</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Yoshi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Boo </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bowser</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+
+          </nav>
 
           <main>
 
-            <section class="sticky">
-
-              <div>
-                <img id="mario-car" src="mario.jpg" alt="Mario in racecar">
-              </div>
-
-              <div>
-                <img id="luigi-car" src="luigi.jpg" alt="Luigi in racecar">
-              </div>
-
-              <div>
-                <img id="peach-car" src="peach1.jpg" alt="Peach in racecar">
-              </div>
-
-              <div>  
-                <img id="yoshi-car" src="yoshi.jpg" alt="Yoshi in racecar">
-              </div>
-
-              <div>  
-                <img id="boo-car" src="boo.jpg" alt="Boo in racecar">
-              </div>
-
-              <div>
-                <img id="bowser-car" src="bowser.jpg" alt="Bowser in racecar">
-              </div>
-
-            </section>
-
             <section>
 
+                <h5 id="choose">CHOOSE YOUR CHARACTER!!</h5>
+                <img id="start" src="3-2-1.jpg" alt="Mario and other friends at starting line waiting for the green light.">
             </section>
+
+            <section id="cards">
+
+              <div id="mario-car" class="card" style="width: 18rem;">
+                <img src="mario.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mario</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div id="luigi-car" class="card" style="width: 18rem;">
+                <img src="luigi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Luigi</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+            </section>
+
+            <section id="cards2">
+
+                <div id="peach-car" class="card" style="width: 18rem;">
+                  <img src="peach1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Peach</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+
+              <div id="yoshi-car" class="card" style="width: 18rem;">
+                <img src="yoshi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Yoshi</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+            </section>
+
+            <section id="cards3">
+
+              <div id="boo-car" class="card" style="width: 18rem;">
+                <img src="boo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Boo</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div id="bowser-car" class="card" style="width: 18rem;">
+                <img src="bowser.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bowser</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+            </section>
+              
 
           </main>
 
