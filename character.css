@@ -1,14 +1,23 @@
 header {
-  padding: 30px;
+  padding: 40px;
   background-color: #04235e;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
-  font-family: MarioKart;
+  font-family: "Press Start 2p";
+}
+
+#small2 {
+  font-size: 25px;
+  font-family: "Press Start 2p";
+}
+
+body {
+  background-color: aliceblue;
 }
 
 #circle2 {
@@ -16,30 +25,92 @@ header {
   border: 4px solid white;
   padding: 10px;
   display: inline-block;
+  text-decoration: none;
 }
 
-#small2 {
-  font-size: 45px;
+#circle2 a {
+  color: white;
 }
 
-@font-face {
-    font-family: MarioKart;
-    src: url(Mario-Kart-DS.ttf),
-    url(mario-kart-ds.woff)
+#circle2 a:hover {
+  text-decoration: none;
+  color: #07eaf2;
 }
 
-header a {
-  font-size: 20px;
+
+header>a {
+  font-size: 14px;
   display: inline-block;
   position: absolute;
   right: 100px;
   background-color: white;
   color: #04235e;
   padding: 15px;
-  border-radius: 58px;
+  border-radius: 58px; 
 }
 
-img {
-  width: 50%;
-  margin: 13% 20%;
+#nav{
+  padding: 20px;
+  margin-top: 166px;
+  font-size: 1.8em;
+  background-color: rgba(54, 140, 207, .4);
+  font-family: "Press Start 2P";
+  padding-right: 100px;
 }
+
+#choose {
+  font-size: 60px;
+  font-family: "Press Start 2P";
+  padding: 20px;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 40px;
+  color: #a62117;
+}
+
+#start {
+  width: 100%;
+}
+
+#cards {
+  margin-left: 10.5%;
+  position: relative;
+}
+
+#cards2 {
+
+}
+
+#cards3 {
+
+}
+
+#mario-car {
+  padding: 20px;
+  margin: 20px;
+}
+
+#luigi-car {
+  padding: 20px;
+  margin: 20px;
+}
+
+#peach-car {
+  padding: 20px;
+  margin: 20px;
+}
+
+#yoshi-car {
+  padding: 20px;
+  margin: 20px;
+}
+
+#boo-car {
+  padding: 20px;
+  margin: 20px;
+}
+
+#bowser-car {
+  padding: 20px;
+  margin: 20px;  
+}  
