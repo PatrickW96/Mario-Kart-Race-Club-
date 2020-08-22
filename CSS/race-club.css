@@ -1,0 +1,250 @@
+header {
+
+    /* Made header a fixed banner like box. It is glued to the top of the browser with position: fixed; propert: value.
+    Got the idea from CSS video link included... https://www.youtube.com/watch?v=XQaHAAXIVg8&amp;t=81s... check it out to
+    get an idea how to do step by step. */
+
+    padding: 30px;
+    background-color: #04235e;
+    color: white;
+    font-size: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: MarioKart;
+}
+
+@font-face {
+
+    /* Downloaded some fonts from Google to add flavor to the page. Did not add back up fonts yet. */
+
+    font-family: SuperMario;
+    src: url(supermario256.woff),
+    url(SuperMario256.tff);
+}
+
+@font-face {
+    font-family: MarioKart;
+    src: url(Mario-Kart-DS.ttf),
+    url(mario-kart-ds.woff)
+}
+
+#small {
+    font-size: 45px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header>a {
+
+    /* Put the "join the club" link/button on top right corner of header. Used border-radius to mimic the
+    niintento logo around link/button. */
+
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    background-color: white;
+    color: #04235e;
+    padding: 15px;
+    border-radius: 58px;
+}
+
+#circle {
+    border-radius: 58px;
+    border: 4px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#first-image {
+    width: 100%;
+    margin: 0;
+}
+
+#banner-text {
+
+    /* Made some fun "Issa me.. Mario! text for personality. Plan to add font-styles if not tonight tomorrow */
+
+    font-size: 68px;
+    width: 42%;
+    color: #a62117;
+    white-space: nowrap;
+    font-family: MarioKart;
+    position: relative;
+    right: 10%;
+    text-decoration: underline;
+}
+
+nav {
+
+    /* Had to add position: relative; to this element so I could move the #map link box to the right with position: absolute;
+    property: value. */
+
+    background-color: rgba(54, 140, 207, .4);
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: MarioKart;
+}
+
+#char {
+    padding: 40px;
+    text-align: center;
+    width: 45%;
+    font-size: 2em;
+    border: 2px solid #04235e;
+}
+
+#map {
+
+    /* Added position: absolute; to move the "CHOOSE YOUR MAP" nav link to right side of the "CHOOSE YOUR CHARACTER" link so they
+    can be on the same line. */
+
+    padding: 40px;
+    text-align: center;
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2em;
+    border: 2px solid #04235e;
+}
+
+.main {
+    background-color: aliceblue;
+}
+
+.lorem {
+    padding: 30px;
+    line-height: 220%;
+    font-size: 24px;
+    position: relative;
+}
+
+p {
+    margin: 20px 15%;
+    text-align: center;
+}
+
+
+#div {
+    margin-top: 160px;
+    padding: 15px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+}
+
+ #animate-img {
+
+    /* Playing around with the animation properties CSS has to offer by making Mario race across the screen. This is usued in
+    sync with @keyframes. All CSS. I plan on adding JavaScript to make the webpage more dynamic and responsive based on
+    userinterface. Coming soon... */
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 27%;
+    height: 100%;
+    animation-name: mario;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mario {
+    0% {
+        right: 0px;
+}
+
+    50% {
+        right: 85%;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+#start {
+
+    /* Gave both images an id to make controling blocks easier. Then gave the elements dimensions  */
+
+    width: 35%;
+    height: 25%;
+    margin: 1% auto;
+    position: relative;
+    right: -10%;
+
+}
+
+#drift {
+    width: 45%;
+    margin: 1%;
+    padding: 10px;
+    position: relative;
+    right: -6%;
+
+
+
+}
+
+.pictures {
+
+    /* Using this class to figure out how to give the left picture more height. */
+
+    margin: 10px 18%;
+}
+
+#finish {
+    height: 50vw;
+    width: 100%;
+
+}
+
+footer {
+
+    /* Thought adding the a longated footer that was the same color as the header with a "join the club" link
+    in the mix was a nice way to finish the main page off. */
+
+    background-color: #04235e;
+    color: aliceblue;
+    padding: 40px;
+    font-size: 50px;
+    height: 50vw;
+    margin-bottom: 5px;
+}
+
+#club a {
+    color: #04235e;
+}
+
+#club {
+
+    /* The code used to center the link in the footer. */
+
+    border-radius: 58px;
+    border: 4px solid white;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right: -18%;
+    background-color: white;
+    padding: 15px;
+    font-family: MarioKart;
+}
+
+#smaller-txt {
+    font-size: 20px;
+}
+/* ADD FINISH.JPG TO BOTTOM OF PAGE AFTER FOOTER. MAKE IT SO HEADER COMES ALL THE WAY DOWN TO FOOTER... LIKE A MOUTH CLOSING */
