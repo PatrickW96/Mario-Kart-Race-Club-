@@ -2,23 +2,24 @@ header {
 
     /* Made header a fixed banner like box. It is glued to the top of the browser with position: fixed; propert: value.
     Got the idea from CSS video link included... https://www.youtube.com/watch?v=XQaHAAXIVg8&amp;t=81s... check it out to
-    get an idea how to do step by step. */
+    get an idea how to do step by step. This is made for a desktop with out full regards to mobile screens but it does look perfect on 
+    and ipad screen. */
 
-    padding: 30px;
+    padding: 40px;
     background-color: #04235e;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-    font-family: MarioKart;
+    font-family: "Press Start 2p";
 }
 
-@font-face {
+/* @font-face {
 
-    /* Downloaded some fonts from Google to add flavor to the page. Did not add back up fonts yet. */
+    Downloaded some fonts from Google to add flavor to the page. Did not add back up fonts yet. 
 
     font-family: SuperMario;
     src: url(supermario256.woff),
@@ -30,9 +31,10 @@ header {
     src: url(Mario-Kart-DS.ttf),
     url(mario-kart-ds.woff)
 }
-
+ */
 #small {
-    font-size: 45px;
+    font-size: 25px;
+    font-family: "Press Start 2p";
 }
 
 body {
@@ -44,7 +46,7 @@ header>a {
     /* Put the "join the club" link/button on top right corner of header. Used border-radius to mimic the
     niintento logo around link/button. */
 
-    font-size: 20px;
+    font-size: 14px;
     display: inline-block;
     position: absolute;
     right: 100px;
@@ -53,6 +55,7 @@ header>a {
     padding: 15px;
     border-radius: 58px;
 }
+
 
 #circle {
     border-radius: 58px;
@@ -70,11 +73,11 @@ header>a {
 
     /* Made some fun "Issa me.. Mario! text for personality. Plan to add font-styles if not tonight tomorrow */
 
-    font-size: 68px;
+    font-size: 38px;
     width: 42%;
     color: #a62117;
     white-space: nowrap;
-    font-family: MarioKart;
+    font-family: "Press Start 2P";
     position: relative;
     right: 10%;
     text-decoration: underline;
@@ -94,15 +97,23 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    font-family: MarioKart;
+    font-family: "Press Start 2P";
 }
+
+nav a:hover {
+
+    /* Added psuedo element ':hover' to make the link text stand out when you hover over it with your mouse  */
+    
+        color: #07eaf2;
+        text-decoration: none;
+    }
 
 #char {
     padding: 40px;
     text-align: center;
     width: 45%;
-    font-size: 2em;
-    border: 2px solid #04235e;
+    font-size: 1.3em;
+    margin-left: 5%;
 }
 
 #map {
@@ -116,8 +127,8 @@ nav a {
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 2em;
-    border: 2px solid #04235e;
+    font-size: 1.3em;
+    margin-right: 5%;
 }
 
 .main {
@@ -129,6 +140,9 @@ nav a {
     line-height: 220%;
     font-size: 24px;
     position: relative;
+    font-family: "Amiko";
+    width: 80%;
+    margin: 0 auto;
 }
 
 p {
@@ -219,11 +233,9 @@ footer {
 
     background-color: #04235e;
     color: aliceblue;
-    padding: 40px;
-    font-size: 50px;
-    height: 50vw;
-    margin-bottom: 5px;
-}
+    padding: 10px;
+    font-size: 2.5em;
+} 
 
 #club a {
     color: #04235e;
@@ -233,18 +245,17 @@ footer {
 
     /* The code used to center the link in the footer. */
 
-    border-radius: 58px;
+    border-radius: 52px; 
     border: 4px solid white;
     display: inline-block;
     text-align: center;
-    position: relative;
-    right: -18%;
     background-color: white;
     padding: 15px;
-    font-family: MarioKart;
-}
+    font-family: "Press Start 2P";
+    margin: 0 25%;
+} 
 
 #smaller-txt {
-    font-size: 20px;
+    font-size: 20px; 
 }
 /* ADD FINISH.JPG TO BOTTOM OF PAGE AFTER FOOTER. MAKE IT SO HEADER COMES ALL THE WAY DOWN TO FOOTER... LIKE A MOUTH CLOSING */
