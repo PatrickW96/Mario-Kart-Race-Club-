@@ -72,45 +72,6 @@ header>a {
   width: 100%;
 }
 
-#cards {
-  margin-left: 10.5%;
-  position: relative;
+.card img {
+  max-height: 150px;
 }
-
-#cards2 {
-
-}
-
-#cards3 {
-
-}
-
-#mario-car {
-  padding: 20px;
-  margin: 20px;
-}
-
-#luigi-car {
-  padding: 20px;
-  margin: 20px;
-}
-
-#peach-car {
-  padding: 20px;
-  margin: 20px;
-}
-
-#yoshi-car {
-  padding: 20px;
-  margin: 20px;
-}
-
-#boo-car {
-  padding: 20px;
-  margin: 20px;
-}
-
-#bowser-car {
-  padding: 20px;
-  margin: 20px;  
-}  
