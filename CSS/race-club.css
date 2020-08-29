@@ -1,30 +1,36 @@
+/* Define a fixed header that is stuck in place when the user scrolls */
 header {
-    padding: 40px;
+    padding: 10px;
     background-color: #04235e;
     color: white;
-    font-size: 40px;
+    font-size: 7vw;
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
-    width: 100%;
     z-index: 1;
     font-family: "Press Start 2p";
+    margin-top: 0;
 }
 
+/* Styling and positioning the "Join the Club" link */
 header>a {
-    font-size: 14px;
+    font-size: 1.1vw;
     display: inline-block;
     position: absolute;
     right: 100px;
+    top: 6vw;
     background-color: white;
     color: #04235e;
     padding: 15px;
     border-radius: 58px; 
+    width: auto;
   }
 
+/* Styling done to the smaller "Race Club" text */
 #small {
-    font-size: 25px;
+    font-size: 1.7vw;
     font-family: "Press Start 2p";
+    width: auto;
   }
 
 body {
@@ -38,6 +44,7 @@ body {
     padding: 10px;
     display: inline-block;
     text-decoration: none;
+    font-size: 3vw;
 }
 
 #circle a {
@@ -46,7 +53,7 @@ body {
   
 #circle a:hover {
     text-decoration: none;
-    color: #07eaf2;
+    color: #a62117;
 }
   
 
@@ -59,7 +66,7 @@ body {
 
 
 
-    font-size: 38px;
+    font-size: 2.25vw;
     width: 42%;
     color: #a62117;
     white-space: nowrap;
@@ -150,7 +157,6 @@ p {
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 27%;
     height: 100%;
     animation-name: mario;
     animation-duration: 5s;
@@ -164,7 +170,7 @@ p {
 }
 
     50% {
-        right: 85%;
+        right: 90%;
     }
 
     100% {
@@ -181,6 +187,7 @@ p {
     margin: 1% auto;
     position: relative;
     right: -10%;
+    z-index: 2;
 
 }
 
@@ -190,9 +197,7 @@ p {
     padding: 10px;
     position: relative;
     right: -6%;
-
-
-
+    z-index: 2;
 }
 
 .pictures {
@@ -214,8 +219,8 @@ footer {
 
     background-color: #04235e;
     color: aliceblue;
-    padding: 10px;
-    font-size: 2.5em;
+    padding: 15px;
+    font-size: 3vw;
 } 
 
 #club a {
